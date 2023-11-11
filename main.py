@@ -8,11 +8,9 @@ screen.title("US states")
 image = "blank_states_img.gif"
 screen.addshape(image)
 
-turtle.shape(image)
 
 
-
-
+turtle.shape(image)  
 
 
 data = pandas.read_csv("50_states.csv")
